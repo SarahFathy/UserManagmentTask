@@ -1,0 +1,51 @@
+<div class="col-md-4 col-lg-4">
+  <h2 class="text-center">{{userformlabel}}</h2>
+  <form [formGroup]="addForm" novalidate class="form">
+    <div class="form-group">
+      <label i18n for="userId">User Id:</label>
+      <input type="number" disabled="true" formControlName="id" placeholder="Id" name="userId" class="form-control"
+        id="userId">
+    </div>
+
+    <div class="form-group">
+      <label i18n for="userName">User Name:</label>
+      <input formControlName="name" placeholder="User Name" name="userName" class="form-control" id="userName">
+      <div class="alert  alert-danger" *ngIf="addForm.get('name').hasError('required') && addForm.get('name').touched">
+        User Name is required
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label i18n for="emaillabel">User Email:</label>
+      <input formControlName="email" placeholder="User E-mail" name="email" class="form-control" id="email">
+      <div class="alert  alert-danger"
+        *ngIf="addForm.get('email').hasError('pattern') && addForm.get('email').touched  ">
+        <p>User email is required and should be in form of foo@bar.com.</p>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label i18n for="phone">User Phone:</label>
+      <input formControlName="phone" placeholder="User phone" name="phone" class="form-control" id="phone">
+      <div class="alert  alert-danger"
+        *ngIf=" addForm.get('phone').hasError('pattern') && addForm.get('phone').touched">
+        <p i18n>Phone is required and should equal to 11 digit.</p>
+      </div>
+    </div>
+    <div class="form-group">
+      <label i18n for="Status">status</label>
+      <select formControlName="Status" id="Status" disabled="true">
+        <option [selected]='true' [value]="Status[0].name">
+          {{Status[0].name}}
+        </option>
+        <option [value]="Status[1].name">
+          {{Status[1].name}}
+        </option>
+      </select>
+    </div>
+    <button i18n class="btn btn-success" [disabled]='addForm.invalid' *ngIf="btnvisibility"
+      (click)="onSubmit()">Save</button>
+    <button i18n class="btn btn-success" [disabled]='addForm.invalid' *ngIf="!btnvisibility"
+      (click)="onUpdate()">Update</button>
+  </form>
+</div>

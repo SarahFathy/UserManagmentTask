@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3aef08e5ef76f0ee7c3f7d8bda1925fd68dce06c" datatype="html">
+        <source> User Details</source>
+        <target>بيانات المستخدم</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6167e072e6ce0ec081bbb0a3e68303cc1842cfcf" datatype="html">
+        <source> ID </source>
+        <target>رقم</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20371277706eedf7fd8a3f51633ca5d801cd4fc2" datatype="html">
+        <source> Name </source>
+                <target>الاسم</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7b30ba2108419c9b2810e3eb42ecc19743a9589f" datatype="html">
+        <source> Email </source>
+                <target>البريد الالكتروني</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1d17bd6cbab4fabdb213613c0804e675588ee52e" datatype="html">
+        <source> Phone </source>
+                <target>رقم الهاتف</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d1cddbe2f61020230280a0543a70e48e43d9832" datatype="html">
+        <source> Status </source>
+                <target>الحاله</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59a8c38db3091a63ac1cb9590188dc3a972acfb3" datatype="html">
+        <source> Actions </source>
+                <target>العمليات</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28f86ffd419b869711aa13f5e5ff54be6d70731c" datatype="html">
+        <source>Edit</source>
+                <target>تعديل</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826b25211922a1b46436589233cb6f1a163d89b7" datatype="html">
+        <source>Delete</source>
+                <target>مسح</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4045b89d9bf62fea8423cbbf698fc09a3f2eecd6" datatype="html">
+        <source>Add New
+          User</source>
+                  <target>اضافة مستخدم جديد</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/users.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f495fa4734691cbd2585e0b146f76c836feccf6b" datatype="html">
+        <source>User Id:</source>
+                <target>رقم المستخدم</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="430215f3dd17ef2ca8601b755cb9c32e7f93bfb3" datatype="html">
+        <source>User Name:</source>
+                <target> اسم المستخدم</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97eefb67baf20b0bbd25263d06e668c8772da6f7" datatype="html">
+        <source>User Email:</source>
+                <target>البريد الالكتروني</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b301ac0eeaa66a1e994c0167bc3ebf28a4040fc3" datatype="html">
+        <source>User Phone:</source>
+                <target>رقم الهاتف</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55b8ba62cd4365d0c6aaec8187aace95bca8619d" datatype="html">
+        <source>Phone is required and should equal to 11 digit.</source>
+                <target>رقم الهاتف يجب ان يتكون من 11 رقم</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74ac724decc8ee58e90042e703408a8642cf5405" datatype="html">
+        <source>status</source>
+                <target>الحاله</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="52c9a103b812f258bcddc3d90a6e3f46871d25fe" datatype="html">
+        <source>Save</source>
+                <target>حفظ</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="047f50bc5b5d17b5bec0196355953e1a5c590ddb" datatype="html">
+        <source>Update</source>
+                <target>تحديث</target>
+
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/users/add-user.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
